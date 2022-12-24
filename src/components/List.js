@@ -1,13 +1,12 @@
 import React from 'react';
 import ListItems from './ListItems';
 //code here
- const List = ({listx}) =>{
+
+
+const List = ({listx}) =>{
+
   return(
-    
- 
-    <ListItems valuex={i} />
-    
-  
+    <ListItems valuex={listx} />
   )
 }
 
