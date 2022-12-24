@@ -19,7 +19,7 @@ const App = () => {
        <input id="input" onChange={handleInput} />
       <button id="button" onClick={addTask}>Click</button>
 
-      <div>
+      <div id='list'> 
         {
           nameList.map((list) => {
             return (
